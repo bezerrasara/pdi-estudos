@@ -1,5 +1,9 @@
+#Tópico 3 – Abrir uma imagem colorida em RGB, visualizar e salvar cada um dos canais separadamente. Obs: Busquem compreender o que significa cada um dos canais.
+
+
+
 import cv2
-import numpy as np
+
 imagem = cv2.imread("flor.jpg")
 azul,verde,vermelho = cv2.split(imagem)
 cv2.imshow("canal azul",azul)
